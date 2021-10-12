@@ -6,12 +6,18 @@
             "command": "dotnet",
             "type": "process",
             "args": [
+
+                
                 "build",
                 "${workspaceFolder}/catalog.csproj",
                 "/property:GenerateFullPaths=true",
                 "/consoleloggerparameters:NoSummary"
             ],
-            "problemMatcher": "$msCompile"
+            "problemMatcher": "$msCompile",
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            }
         },
         {
             "label": "publish",
