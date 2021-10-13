@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "LsyxKKf+aGEjmLegVfcBkv8judtzMY5QSnKPJ5621ArO8H7dhrpQB4BWTv5q/eAl2oN2FGI0WAf25r7IpGXUKw==",
+  "dgSpecHash": "LaftczxlBUKGVyU/KLPSsP7fl6yJAGW2AIeqveS9TdPPokNSx2riaBRMr2pEgup6S5IR2xy7Mvsk4lyxwi/rKg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\amalz\\OneDrive\\Documents\\GitHub\\RestApi_mvc5\\catalog\\catalog.csproj",
+  "projectFilePath": "C:\\Users\\amalz\\OneDrive\\Documents\\GitHub\\RestApi_Net5\\catalog\\catalog.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\amalz\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
     "C:\\Users\\amalz\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
