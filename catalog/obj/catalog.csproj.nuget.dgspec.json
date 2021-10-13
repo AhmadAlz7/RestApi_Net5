@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\amalz\\OneDrive\\Documents\\GitHub\\RestApi_mvc5\\catalog\\catalog.csproj": {}
+    "C:\\Users\\amalz\\OneDrive\\Documents\\GitHub\\RestApi_Net5\\catalog\\catalog.csproj": {}
   },
   "projects": {
-    "C:\\Users\\amalz\\OneDrive\\Documents\\GitHub\\RestApi_mvc5\\catalog\\catalog.csproj": {
+    "C:\\Users\\amalz\\OneDrive\\Documents\\GitHub\\RestApi_Net5\\catalog\\catalog.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\amalz\\OneDrive\\Documents\\GitHub\\RestApi_mvc5\\catalog\\catalog.csproj",
+        "projectUniqueName": "C:\\Users\\amalz\\OneDrive\\Documents\\GitHub\\RestApi_Net5\\catalog\\catalog.csproj",
         "projectName": "catalog",
-        "projectPath": "C:\\Users\\amalz\\OneDrive\\Documents\\GitHub\\RestApi_mvc5\\catalog\\catalog.csproj",
+        "projectPath": "C:\\Users\\amalz\\OneDrive\\Documents\\GitHub\\RestApi_Net5\\catalog\\catalog.csproj",
         "packagesPath": "C:\\Users\\amalz\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\amalz\\OneDrive\\Documents\\GitHub\\RestApi_mvc5\\catalog\\obj\\",
+        "outputPath": "C:\\Users\\amalz\\OneDrive\\Documents\\GitHub\\RestApi_Net5\\catalog\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\amalz\\AppData\\Roaming\\NuGet\\NuGet.Config",
