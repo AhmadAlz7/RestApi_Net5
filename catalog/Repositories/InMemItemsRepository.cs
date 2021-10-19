@@ -10,15 +10,15 @@ namespace Catalog.Repositories
     {
         private readonly List<Item> items = new()
         {
-            new Item{ItemId=Guid.NewGuid(),
+            new Item{Id=Guid.NewGuid(),
                     Name = "Potion",
                     Price = 9,
                     CreatedDate = DateTimeOffset.UtcNow},
-            new Item{ItemId=Guid.NewGuid(),
+            new Item{Id=Guid.NewGuid(),
                     Name = "Iron Sword",
                     Price = 20,
                     CreatedDate = DateTimeOffset.UtcNow},
-            new Item{ItemId=Guid.NewGuid(),
+            new Item{Id=Guid.NewGuid(),
                     Name = "Bronze Shield",
                     Price = 18,
                     CreatedDate = DateTimeOffset.UtcNow}
@@ -31,7 +31,7 @@ namespace Catalog.Repositories
 
         public Item GetItem(Guid id)
         {
-            return items.Where(item => item.ItemId == id).SingleOrDefault();
+            return items.Where(item => item.Id == id).SingleOrDefault();
         }
 
         public void CreateItem(Item item)
@@ -42,7 +42,7 @@ namespace Catalog.Repositories
         public void UpdateItem(Item item)
         {
             var index = items.FindIndex(existingItem =>
-            existingItem.ItemId == item.ItemId);
+            existingItem.Id == item.Id);
 
             items[index] = item;
         }

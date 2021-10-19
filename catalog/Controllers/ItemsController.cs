@@ -42,14 +42,14 @@ namespace Catalog.Controllers
         public ActionResult<ItemDto> CreateItem(CreateItemDto itemDto)
         {
             Item item = new(){
-                ItemId = Guid.NewGuid(),
+                Id = Guid.NewGuid(),
                 Name = itemDto.Name,
                 Price = itemDto.Price,
                 CreatedDate = DateTimeOffset.UtcNow
             };
             repositoryPointsToService.CreateItem(item);
 
-            return CreatedAtAction(nameof(GetItem), new {id = item.ItemId}, item.AsDto());
+            return CreatedAtAction(nameof(GetItem), new {id = item.Id}, item.AsDto());
         }
 
         [HttpPut("{id}")] //PUT ./items/{id}
